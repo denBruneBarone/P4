@@ -17,8 +17,10 @@ public class StringToObjects {
 
    public void print () {
       String[] objects = objectString.split(" ");
+      int count = 0;
       for (String string : objects) {
-         System.out.println(string);
+         System.out.println(count + ": " + string);
+         count++;
       }
    }
 }
